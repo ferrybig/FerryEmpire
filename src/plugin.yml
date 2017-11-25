@@ -1,0 +1,12 @@
+name: FerryEmpire
+main: me.ferry.bukkit.plugins.ferryempire.FerryEmpirePlugin
+version: 1.1.1
+author: ferrybig
+depend: [FerryPluginCore]
+commands:
+  ferryempire-wand:
+    description: spawns a wand
+    aliases: [wand]
+  ferryempire-spell:
+    description: selects a spell
+    aliases: [spell, fe]
